@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.flex-login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.login-background-blue {
+    background-color: #56baed;
+}
+
+.login-btn-blue {
+    background-color: #56baed;
+}
+
+.login-card-custom {
+    border-radius: 12px;
+    width: 30%;
+}
+
+
+@media (min-width: 0px) and (max-width: 576px) { 
+    .login-card-custom {
+        width: 100%;
+    }
+    .flex-login-form {
+        width: 80%;
+    }
+    
+}
+@media (min-width: 576px) and (max-width: 768px) { 
+    .login-card-custom {
+        width: 100%;
+    }
+    .flex-login-form {
+        width: 80%;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 992px) { 
+    .login-card-custom {
+        width: 80%;
+    }
+    .flex-login-form {
+        width: 80%;
+    }
+    
+}
+@media (min-width: 992px) and (max-width: 1200px) { 
+    .login-card-custom {
+        width: 60%;
+    }
+    .flex-login-form {
+        width: 80%;
+    }
+    
+}
+
+.alert-custom {
+    width: 30%;
+    text-align: center;
+}
+@media (min-width: 0px) and (max-width: 576px) { 
+    .alert-custom {
+        width: 100%;
+    }
+    
+}
+@media (min-width: 576px) and (max-width: 768px) { 
+    .alert-custom {
+        width: 100%;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 992px) { 
+    .alert-custom {
+        width: 80%;
+    }
+    
+}
+@media (min-width: 992px) and (max-width: 1200px) { 
+    .alert-custom {
+        width: 60%;
+    }
+    
+}
